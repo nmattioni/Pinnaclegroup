@@ -90,3 +90,34 @@ ul {
 .seta {
     width: 72px;
 }
+
+
+/*Solucoes*/
+.solucoes {
+    height: 100vh;
+    background-color: #232323;
+    display: flex;
+    justify-content: center;
+}
+
+.solucoes-containertexto {
+    display: flex;
+    flex-direction: row;
+    width: 50vw;
+    justify-content: space-between;
+    gap: 50px;
+    margin-top: 12vh;
+}
+
+.solucoes-titulo {
+    color: aliceblue;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.solucoes-texto {
+    color: aliceblue;
+    font-weight: 200;
+    max-width: 25vw;
+    font-size: 16px;
+}

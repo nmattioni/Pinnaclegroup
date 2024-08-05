@@ -14,9 +14,6 @@
 <path fill-rule="evenodd" clip-rule="evenodd" d="M574.883 595.983L234.039 394.219C192.324 369.526 138.489 383.325 113.796 425.04C89.1025 466.755 102.901 520.589 144.616 545.283L528.044 772.254C531.066 774.12 534.192 775.795 537.4 777.274C549.107 782.701 561.521 785.331 573.813 785.376C585.91 785.444 598.15 783.009 609.748 777.859C613.071 776.391 616.31 774.715 619.443 772.836L929.838 594.524C971.871 570.377 986.371 516.727 962.224 474.694C938.077 432.66 884.427 418.16 842.394 442.307L574.883 595.983Z" fill="#1F2E7E" fill-opacity="0.2"/>
 </g>
 </g>
-<circle cx="692" cy="793.726" r="34" transform="rotate(90 692 793.726)" fill="#BB6BD9"/>
-<path d="M699.06 795.44L692 802.5L684.939 795.44" stroke="white" stroke-width="2"/>
-<path d="M692.181 802.5L692.181 784.952" stroke="white" stroke-width="2"/>
 <defs>
 <filter id="filter0_ii_1040_320" x="434.297" y="114.622" width="949.822" height="459.063" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
