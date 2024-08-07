@@ -32,7 +32,7 @@ header {
 }
 
 .container-header {
-    width: 50vw;
+    width: 65vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
