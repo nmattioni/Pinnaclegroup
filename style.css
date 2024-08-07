@@ -109,10 +109,10 @@ ul {
     display: flex;
     flex-direction: row;
     height: auto;
-    width: 50vw;
+    width: 65vw;
     justify-content: space-between;
     gap: 50px;
-    margin-top: 12vh;
+    margin-top: 18vh;
 }
 
 .solucoes-titulo {
@@ -124,14 +124,14 @@ ul {
 .solucoes-texto {
     color: aliceblue;
     font-weight: 200;
-    max-width: 25vw;
+    max-width: 35vw;
     font-size: 1rem;
 }
 
 .container-modulo {
     margin-top: 8vh;
     display: flex;
-    max-width: 50vw;
+    max-width: 65vw;
     gap: 2vw;
     align-items: center;
 
@@ -139,8 +139,8 @@ ul {
 
 .modulo {
     background-color: hsl(0, 0%, 9%);
-    width: 20vw;
-    height: 30vh;
+    width: 30vw;
+    height: 40vh;
     border-radius: 1rem;
 
 }
