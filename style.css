@@ -184,7 +184,7 @@ footer {
     }
 
     .logoheader {
-        width: 150px;
+        width: 130px;
     } 
 
     .principal {
@@ -197,7 +197,7 @@ footer {
     .slogan {
         color: aliceblue;
         font-weight: 500;
-        font-size: 2rem;
+        font-size: 1.7rem;
         line-height: 30px;
         margin-bottom: 2vh;
     }
@@ -205,17 +205,31 @@ footer {
     .subslogan {
         color: aliceblue;
         font-weight: 200;
-        font-size: 1rem;
+        font-size: 0.8rem;
         text-align: justify;
     }
 
     .principalseta {
-        margin-top: 17vh;
+        margin-top: 15vh;
         text-align: center;
     }
 
     .seta {
-        width: 3.5rem;
+        width: 3rem;
     }   
 
+    .principallinks {
+        color: aliceblue;
+        margin-top: 3.2vh;
+        font-size: 0.8rem;
+    }
+    
+    .principallinks1 {
+        margin-right: 0.7vw;
+        color: black;
+        background-color: aliceblue;
+        border-radius: 0.1875rem;
+        padding: 4px 9px;
+
+}
 }
