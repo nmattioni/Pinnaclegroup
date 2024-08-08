@@ -28,7 +28,6 @@ header {
     display: flex;
     justify-content: center;
 
-
 }
 
 .container-header {
@@ -142,5 +141,25 @@ ul {
     width: 30vw;
     height: 40vh;
     border-radius: 1rem;
+}
 
+footer {
+    background-color: hsl(0, 0%, 0%);
+    height: 30vh;
+}
+
+.footer-faixa1 {
+    padding-top: 10vh;
+    display: flex;
+    justify-content: center;
+}
+
+.container-footer {
+    display: flex;
+    width: 65vw;
+}
+
+.logo-footer {
+    margin-top: 0vh;
+    width: 10vw;
 }
