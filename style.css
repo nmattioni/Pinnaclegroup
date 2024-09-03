@@ -9,7 +9,7 @@
 
 body::before {
     content: '';
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
@@ -89,14 +89,71 @@ ul {
     color: aliceblue;
 }
 
-.principalseta {
-    margin-top: 12vh;
-    text-align: center;
+.solucoes {
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+    padding: 15vh 25vw;
 }
 
-.seta {
-    width: 4.5rem;
+.caixatextosolucoes {
+    display: flex;
+    gap: 50px;
+    align-items: center;
 }
+
+.titulosolucoes {
+    color: aliceblue;
+    font-weight: 500;
+    font-size: 36px;
+}
+
+.textosolucoes {
+    color: aliceblue;
+    font-weight: 100;
+    font-size: 18px;
+}
+
+.caixaboxsolucoes {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box1 {
+    margin-top: 10vh;
+    background-image: url(assets/AM.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 23.125rem;
+    height: 23.125rem;
+    border-radius: 22px;
+}
+
+.box2 {
+    margin-top: 10vh;
+    background-image: url(assets/BK.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 23.125rem;
+    height: 23.125rem;
+    border-radius: 22px;
+}
+
+.box3 {
+    margin-top: 10vh;
+    background-image: url(assets/IB.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 23.125rem;
+    height: 23.125rem;
+    border-radius: 22px;
+}
+
+
+
+
 
 footer {
     background-color: hsl(0, 0%, 0%);
@@ -116,7 +173,7 @@ footer {
 
 .logo-footer {
     margin-top: 0vh;
-    width: 10vw;
+    width: 6vw;
 }
 
 @media (max-width: 768px) {
@@ -169,15 +226,6 @@ footer {
         text-align: start;
     }
 
-    .principalseta {
-        margin-top: 20vh;
-        text-align: center;
-    }
-
-    .seta {
-        width: 3rem;
-    }
-
     .principallinks {
         color: aliceblue;
         margin-top: 3.2vh;
@@ -197,6 +245,43 @@ footer {
         text-decoration: none;
         color: aliceblue;
     }
+
+    
+    .solucoes{
+        height: 140vh;
+    }
+
+    .caixatextosolucoes {
+        display: block;
+        margin-bottom: 4vh;
+    }
+    
+    .titulosolucoes {
+        color: aliceblue;
+        font-weight: 500;
+        font-size: 28px;
+    }
+    
+    .textosolucoes {
+        padding-top: 0.8vh;
+        color: aliceblue;
+        font-weight: 100;
+        font-size: 10px;
+    }
+    
+    .caixaboxsolucoes {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .box {
+        margin-top: 2vh;
+        background-color: rgb(0, 0, 0);
+        width: 350px;
+        height: 350px;
+        border-radius: 22px;
+    }
+
 
     .footer-faixa1 {
         padding-top: 10vh;
